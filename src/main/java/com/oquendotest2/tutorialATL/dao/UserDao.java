@@ -10,4 +10,5 @@ public interface UserDao {
     void deleteUser(Long id);
 
     void createUser(User user);
+    User verifyEmailAndPassword(User user);
 }
